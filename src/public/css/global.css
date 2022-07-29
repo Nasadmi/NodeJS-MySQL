@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100F0F;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*HEADING*/
+
+.heading {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header.title {
+    color: #F1F1F1;
+}
+
+.navigation {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0px 15px;
+}
+
+.nav-menu li a {
+    color: #0F3D3E;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: #F1F1F1;
+    transition: 0.45s ease-in;
+}
+
+.hiden {
+    display: none;
+}
+
+/*SPECIFIC STYLES*/
+
+.content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.inserts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inserts h2 {
+    color: #F1F1F1;
+    font-size: 25px;
+    margin-right: 10px;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 20px;
+    width: 70vw;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    height: 25px;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 10%;
+    padding: 15px 50px;
+    border-radius: 22px;
+    font-size: 30px;
+    border: none;
+    background-color: #0F3D3E;
+    color: #F1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #F1F1F1;
+    color: #0F3D3E;
+    transition: 0.5s ease-in;
+}
+
+.content-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.tab {
+    text-align: center;
+    height: 15vh;
+    width: 80vw;
+}
+
+.tab tr {
+    margin-top: 10px;
+}
+
+.tab tr th {
+    margin: 0px 10px;
+    font-size: 25px;
+    color: #F1F1F1;
+}
+
+.tab tr td {
+    font-size: 20px;
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+a {
+    color: #b3b3b3;
+}
+
+.fa-trash:hover{
+    color: red;
+    transition: 0.45s ease-in;
+}
+
+.content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.content-about a {
+    color: #0F3D3E;
+}
+
+.content-about a:hover {
+    color: #F1F1F1;
+    transition: 0.45s ease-in;
+}
+
+img {
+    width: 40%;
+    height: 35%;
+}

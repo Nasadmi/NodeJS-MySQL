@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Links-->
+    <%- include('partials/links')%>
+</head>
+<body>
+    <div class="container">
+        <!--HEADING-->
+        <%- include('partials/heading')%>
+    </div>
+    <div class="content-contacts">
+        <table class="tab">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Delete</th>
+            </tr>
+            <% for(var i = 0; i < datamove.length; i++) { %>
+                <tr>
+                    <td>
+                        <%= datamove[i].name %>
+                    </td>
+                    <td>
+                        <%= datamove[i].old %>
+                    </td>
+                    <td>
+                        <%= datamove[i].direction %>
+                    </td>
+                    <td>
+                        <a href="/contact/delete/<%= datamove[i].id %>">
+                            <i class="fas fa-trash delete"></i>
+                        </a>
+                    </td>
+                </tr>
+            <% } %>
+        </table>
+    </div>
+    <script src="js/delete.js"></script>
+</body>
+</html>
